@@ -160,7 +160,7 @@ city_results |>
   ) +
   theme_minimal()+
   theme(
-  plot.margin = margin(t = 10, r = 10, b = 10, l = 20),
+    axis.text.y = element_text(size = 7),
   )
 
 
